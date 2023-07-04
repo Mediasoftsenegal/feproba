@@ -1,0 +1,8 @@
+[31-Jul-2022 10:29:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/remacons/public_html/fep/sodagri/menu_so.php on line 9
+[31-Jul-2022 10:29:28 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/sodagri/menu_so.php on line 132
+[31-Jul-2022 10:29:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/remacons/public_html/fep/sodagri/tab_identi_bene.php on line 3
+[31-Jul-2022 10:29:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/remacons/public_html/fep/sodagri/pagi.php on line 14
+[31-Jul-2022 10:29:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/fep/sodagri/pagi.php on line 15
+[31-Jul-2022 10:29:33 UTC] PHP Notice:  Undefined index: pp in /home/remacons/public_html/fep/sodagri/tab_identi_bene.php on line 247
+[31-Jul-2022 10:29:33 UTC] PHP Notice:  Undefined index: num in /home/remacons/public_html/fep/sodagri/tab_identi_bene.php on line 265
+[31-Jul-2022 10:29:33 UTC] PHP Notice:  Undefined variable: cpt in /home/remacons/public_html/fep/sodagri/tab_identi_bene.php on line 296

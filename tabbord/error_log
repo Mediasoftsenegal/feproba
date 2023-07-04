@@ -1,0 +1,1269 @@
+[25-Jun-2023 21:35:05 UTC] PHP Warning:  require(connexion.php): failed to open stream: No such file or directory in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 21:35:05 UTC] PHP Warning:  require(connexion.php): failed to open stream: No such file or directory in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 21:35:05 UTC] PHP Fatal error:  require(): Failed opening required 'connexion.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:58:24 UTC] PHP Warning:  require(connexion.php): failed to open stream: No such file or directory in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:58:24 UTC] PHP Warning:  require(connexion.php): failed to open stream: No such file or directory in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:58:24 UTC] PHP Fatal error:  require(): Failed opening required 'connexion.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:58:31 UTC] PHP Warning:  require(connexion.php): failed to open stream: No such file or directory in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:58:31 UTC] PHP Warning:  require(connexion.php): failed to open stream: No such file or directory in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:58:31 UTC] PHP Fatal error:  require(): Failed opening required 'connexion.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/fep/tabbord/tabbord.php on line 2
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[25-Jun-2023 23:59:29 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[25-Jun-2023 23:59:29 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[25-Jun-2023 23:59:29 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[25-Jun-2023 23:59:29 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[25-Jun-2023 23:59:29 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:00:17 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:00:17 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:00:17 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:00:17 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:00:17 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:00:43 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:00:43 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:00:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:00:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:00:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:02:13 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:02:13 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:02:13 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:13 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:13 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:02:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:02:25 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:02:28 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:28 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:38 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:38 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:02:40 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:02:40 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:02:40 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:40 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:40 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:02:44 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:02:44 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:02:44 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:44 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:44 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:02:57 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:02:57 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:03:24 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:03:24 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:03:24 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:03:24 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:03:24 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:08:10 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:08:10 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:08:10 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:10 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:10 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:08:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:08:15 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:08:15 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:15 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:15 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:08:19 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:08:19 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:08:19 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:19 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:19 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:08:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:08:25 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:08:25 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:25 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:08:25 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:09:30 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:09:30 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:09:30 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:09:30 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:09:30 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:10:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:10:59 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:10:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:10:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:10:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:28:53 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:28:53 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:28:53 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:28:53 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:28:53 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:28:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:28:59 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:28:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:28:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:28:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:32:43 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:32:43 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:32:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:32:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:32:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:33:54 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:33:54 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:33:54 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:33:54 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:33:54 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:34:00 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:34:00 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:34:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:34:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:34:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:34:56 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:34:56 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:34:56 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:34:56 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:34:56 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:35:48 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:35:48 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:35:48 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:35:48 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:35:48 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:36:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:36:01 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:36:01 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:36:01 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:36:01 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:41:22 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:41:22 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:41:22 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:41:22 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:41:22 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:41:32 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:41:32 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:41:32 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:41:32 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:41:32 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:41:40 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:41:40 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:43:42 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:43:42 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:45:07 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:45:07 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:45:16 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:45:16 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:45:16 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:45:16 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:45:16 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:47:06 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:47:06 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:47:06 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:06 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:06 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:47:12 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:47:12 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:47:12 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:12 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:12 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:47:18 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:47:18 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:47:18 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:18 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:18 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:47:37 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:47:37 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:47:37 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:37 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:47:37 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:48:00 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:48:00 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:48:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:48:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:48:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:48:04 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:48:04 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:48:04 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:48:04 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:48:04 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined index: search_camp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 6
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined index: nom in /home/remacons/public_html/fep/tabbord/tabbord.php on line 95
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 367
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: union1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 368
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 372
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: union2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 373
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 377
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: union3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 378
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 382
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: tx4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: union4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 383
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: nomunion in /home/remacons/public_html/fep/tabbord/tabbord.php on line 409
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: qtes in /home/remacons/public_html/fep/tabbord/tabbord.php on line 411
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: nomunionp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 423
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: qtesp in /home/remacons/public_html/fep/tabbord/tabbord.php on line 425
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 464
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 469
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: ner in /home/remacons/public_html/fep/tabbord/tabbord.php on line 479
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: sahe in /home/remacons/public_html/fep/tabbord/tabbord.php on line 482
+[26-Jun-2023 00:48:28 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/remacons/public_html/fep/tabbord/tabbord.php on line 520
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: val1 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 522
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: val2 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 524
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: val3 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 526
+[26-Jun-2023 00:48:28 UTC] PHP Notice:  Undefined variable: val4 in /home/remacons/public_html/fep/tabbord/tabbord.php on line 528
+[26-Jun-2023 00:48:28 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:48:28 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/tabbord/tabbord.php on line 552
+[26-Jun-2023 00:48:28 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/fep/connexion.php on line 399
