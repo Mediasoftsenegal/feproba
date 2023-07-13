@@ -10,13 +10,13 @@ $result=listeunion();
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Paramètres >> Unions</h1>
+            <h1>Paramètres >> <i class="nav-icon fas fa-book"></i> Unions</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="Tabbord/tabbord.php">Tableau de bord</a></li>
               <li class="breadcrumb-item ">Paramètres</li>
-              <li class="breadcrumb-item active">Union</li>
+              <li class="breadcrumb-item active"> Union</li>
             </ol>
           </div>
         </div>

@@ -10,7 +10,7 @@ $result=liste_saison();
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Paramètres >> Saisons</h1>
+            <h1>Paramètres >> <i class="nav-icon fas fa-asterisk"></i> Saisons</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -54,7 +54,7 @@ $result=liste_saison();
                   <tr>
                   <td><?php echo $row['Saison']; ?></td>
                   <td> <?php echo "
-                    <a href='param.php?page=form_edit_saison&&id=$row[Id_Saison]'><button class='btn btn-primary btn-xs'><i class='fa fa-address-card'></i></button><a/>
+                    <a href='menu_pr.php?page=form_edit_saison&&id=$row[Id_Saison]'><button class='btn btn-primary btn-xs'><i class='fa fa-address-card'></i></button><a/>
                     <button class='btn btn-danger btn-xs'><i class='fa fa-trash'></i></button>" ?> 
                   </td>   
 							  <?php 

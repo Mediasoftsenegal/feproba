@@ -1,0 +1,16 @@
+[10-Jul-2023 20:37:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/acces.php on line 12
+[10-Jul-2023 20:37:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1085) in /home/remacons/public_html/fep/acces.php on line 25
+[10-Jul-2023 20:38:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1085) in /home/remacons/public_html/fep/acces.php on line 25
+[10-Jul-2023 20:42:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1085) in /home/remacons/public_html/fep/acces.php on line 25
+[10-Jul-2023 20:43:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1085) in /home/remacons/public_html/fep/acces.php on line 25
+[10-Jul-2023 20:43:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1085) in /home/remacons/public_html/fep/acces.php on line 25
+[10-Jul-2023 20:45:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1085) in /home/remacons/public_html/fep/acces.php on line 25
+[11-Jul-2023 01:06:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/menu_pr.php on line 4
+[11-Jul-2023 01:06:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/menu_pr.php on line 10
+[11-Jul-2023 01:06:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/tab_parcelles.php on line 3
+[11-Jul-2023 01:06:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/menu_pr.php on line 4
+[11-Jul-2023 01:06:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/menu_pr.php on line 10
+[11-Jul-2023 01:06:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/remacons/public_html/fep/tab_parcelles.php on line 3
+[11-Jul-2023 01:11:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1093) in /home/remacons/public_html/fep/acces.php on line 25
+[11-Jul-2023 01:20:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1093) in /home/remacons/public_html/fep/acces.php on line 25
+[11-Jul-2023 01:21:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/remacons/public_html/fep/connexion.php:1093) in /home/remacons/public_html/fep/acces.php on line 25

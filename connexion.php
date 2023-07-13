@@ -29,7 +29,7 @@
 		}	
 		function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 			{
-				$theValue = (!get_magic_quotes_gpc()) ? addslashes($theValue) : $theValue;
+				$theValue =  $theValue;
 
 					switch ($theType) 
 						{
@@ -206,7 +206,15 @@
 					return $exe;
 					
 			}	
-		
+		// Function del_parcelles($di)
+		// {
+
+
+
+		// 	$conn=fep_connexion();
+		// 	$exe=mysqli_query($conn,$sql);
+		// 	return $exe;
+		// }
 		// CAMPAGNE
 		 Function list_camp()
 			 {
@@ -226,7 +234,16 @@
 					$exe=mysqli_query($conn,$sql);
 					return $exe;
 			 }
-		 
+		 Function select_camp($id_camp)
+		 {
+
+			$sql="SELECT DISTINCT `fep_campagne`.`ID_CAMPAGNE`,`fep_campagne`.`campagne` FROM `fep_campagne`
+			WHERE `ID_CAMPAGNE` =".$id_camp ;
+
+			$conn=fep_connexion();
+			$exe=mysqli_query($conn,$sql);
+			return $exe;
+		 }
 		// SUVI AGRONOMIQUE
 		
 		Function listesuivi($camp)
@@ -253,6 +270,15 @@
 		 Function liste_saison()
 			 {
 			$sql = "SELECT * FROM `fep_saison`";
+
+				$conn=fep_connexion();
+				$exe=mysqli_query($conn,$sql);
+				return $exe;
+			 }
+			 Function select_saison($id_saison)
+			 {
+
+				$sql="SELECT * FROM `fep_saison` WHERE ID_SAISON=".$id_saison;
 
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);
@@ -461,7 +487,7 @@
 		
 		Function listereps()
 			{
-				$sql="SELECT * FROM `fep_repertoire`";
+				$sql="SELECT * FROM `fep_repertoire` order by prenom_nom ASC";
 					
 					$conn=fep_connexion();
 					$exe=mysqli_query($conn,$sql);
@@ -478,7 +504,7 @@
 		
 		Function prenomnom()
 			{
-				$sql="select id_repertoire,prenom_nom FROM `fep_repertoire`";
+				$sql="select id_repertoire,prenom_nom FROM `fep_repertoire` ORDER BY prenom_nom ASC";
 				
 					$conn=fep_connexion();
 					$exe=mysqli_query($conn,$sql);
@@ -495,7 +521,7 @@
 					return $exe;
 			}
 		
-		function insert_membre($prenom_nom,$date_naissance,$genre,$region,$departement,$commune,$village,$numtel,$numcin,$statut_producteur,	$organi_base,$statut_organi,$annee_implic,$droit_adhesion,$source_financement,$chef_menage,$membre_menage,$menage_appui,$animateur,$observations)
+			Function insert_membre($prenom_nom,$date_naissance,$genre,$region,$departement,$commune,$village,$numtel,$numcin,$statut_producteur,	$organi_base,$statut_organi,$annee_implic,$droit_adhesion,$source_financement,$chef_menage,$membre_menage,$menage_appui,$animateur,$observations)
 			{
 				$sql="INSERT INTO `fep_repertoire` (`prenom_nom`, `date_naissance`, `genre`, `region`,`departement`, `commune`, `village`, `numtel`,`numcin`, `statut_producteur`, `organi_base`, `statut_organi`,`annee_implic`, `droit_adhesion`, `source_financement`,`chef_menage`, `membre_menage`, `menage_appui`, `animateur`, `observations`) VALUES ('".$prenom_nom."', '".$date_naissance."', '".$genre."','".$region."','".$departement."','".$commune."','".$village."','".$numtel."','".$numcin."','".$statut_producteur."','".$organi_base."','".$statut_organi."','".$annee_implic."','".$droit_adhesion."','".$source_financement."','".$chef_menage."','".$membre_menage."','".$menage_appui."','".$animateur."','".$observations."')";
 	
@@ -505,7 +531,7 @@
 			
 			}
 		
-		function update_membre($id,$prenom_nom,$date_naissance,$genre,$region,$departement,$commune,$village,$numtel,$numcin,$statut_producteur,	$organi_base,$statut_organi,$annee_implic,$droit_adhesion,$source_financement,$chef_menage,$membre_menage,$menage_appui,$animateur,$observations)
+			Function update_membre($id,$prenom_nom,$date_naissance,$genre,$region,$departement,$commune,$village,$numtel,$numcin,$statut_producteur,	$organi_base,$statut_organi,$annee_implic,$droit_adhesion,$source_financement,$chef_menage,$membre_menage,$menage_appui,$animateur,$observations)
 			{
 				$sql = "UPDATE `fep_repertoire` SET `prenom_nom`= '".$prenom_nom."',`date_naissance`='".$date_naissance."',`genre`='".$genre."',`region` ='".$region."',`departement` ='".$departement."',`commune` ='".$commune."',`village` ='".$village."',`numtel` ='".$numtel."',`numcin` ='".$numcin."',`statut_producteur` ='".$statut_producteur."',`organi_base` ='".$organi_base."',`statut_organi` ='".$statut_organi."',`annee_implic` ='".$annee_implic."',`droit_adhesion` ='".$droit_adhesion."',`source_financement` ='".$source_financement."',`chef_menage` ='".$chef_menage."',`membre_menage` ='".$membre_menage."',`menage_appui` ='".$menage_appui."',`animateur` ='".$animateur."',`observations` ='".$observations."' WHERE `ID_REPERTOIRE`='".$id."'";
 			
@@ -515,18 +541,29 @@
 				
 			}
 		
-		function suppr_membre($id_repertoire)	
+			Function suppr_membre($id_repertoire)	
 			{
 			
-				$sql="DELETE  FROM `fep_repertoire` WHERE `fep_repertoire`.`ID_REPERTOIRE`".$id_repertoire."'";;
-			
+				$sql="DELETE  FROM `fep_repertoire` WHERE `fep_repertoire`.`ID_REPERTOIRE` ='".$id_repertoire."'";
+				
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);
 				return $exe;
 				
 			}
 		// 	PARCELLES
-		function liste_secteur()
+		Function affiche_parcelles()
+		{
+
+			$sql="SELECT * FROM `fep_parcelles`";
+		
+			$conn=fep_connexion();
+			$exe=mysqli_query($conn,$sql);
+			return $exe;
+
+		}
+
+		Function liste_secteur()
 			{
 				$sql="SELECT DISTINCT nomsecteur FROM `fep_parcelles` order by nomsecteur ";
 				
@@ -590,7 +627,7 @@
 			
 			
 			}
-		function liste_parcelles($nomsecteur,$bloc)
+			Function liste_parcelles($nomsecteur,$bloc)
 			{
 				$sql="SELECT DISTINCT * FROM `fep_parcelles` WHERE `fep_parcelles`.nomsecteur='".$nomsecteur."' AND`fep_parcelles`.nombloc='".$bloc."'";
 			
@@ -599,7 +636,7 @@
 					return $exe;
 			
 			}	
-		function liste_parcelles2()
+			Function liste_parcelles2()
 			{
 				$sql="SELECT DISTINCT numparcelle FROM `fep_parcelles` ORDER BY numparcelle";
 						
@@ -608,6 +645,17 @@
 					return $exe;
 			
 			}	
+
+		Function attr_parcelle($attributaire)
+		{
+
+			$sql="SELECT * FROM `fep_parcelles` WHERE `fep_parcelles`.`attributaire`='".$attributaire."'" ;
+					
+					$conn=fep_connexion();
+					$exe=mysqli_query($conn,$sql);
+					return $exe;
+
+		}
 		function identite_parcelle($idparcell)
 			{
 				$sql="SELECT * FROM `fep_parcelles` WHERE `fep_parcelles`.`id_parcelles`='".$idparcell."'" ;
@@ -616,7 +664,7 @@
 					$exe=mysqli_query($conn,$sql);
 					return $exe;
 			}			
-		function idparcelle($nomsecteur,$nombloc,$numparcelle,$ct)
+			Function idparcelle($nomsecteur,$nombloc,$numparcelle,$ct)
 			{
 				$sql="SELECT `fep_parcelles`.`numparcelle`,`fep_parcelles`.`id_parcelles` FROM `fep_parcelles` 
 				
@@ -633,19 +681,21 @@
 				
 			}
 			
-		function insert_parcelle($nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,$date_attribution)
+			Function insert_parcelle($nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,$date_attribution)
 			{
 				$sql="INSERT INTO `fep_parcelles`(`nomsecteur`,`nombloc`,`ct`,`numparcelle`,`nature_parcelle`,`longitude`,`latitude`,
-				`attributaire`,`date_attribution`,)VALUES ( '".$nomsecteur."','".$nombloc."','".$nomct."','".$numparcelle."','".$natureparcelle."','".$xlongitude."','".$xLatitude."','".$id_repertoire."','".$date_attribution."')";	
+				`attributaire`,`date_attribution`,)
+				VALUES ( '".$nomsecteur."','".$nombloc."','".$nomct."','".$numparcelle."','".$natureparcelle."','".$xlongitude."','".$xLatitude."',
+				'".$id_repertoire."','".$date_attribution."')";	
 		
-				
+
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);
 				return $exe;
 			
 			}
 		
-		function update_parcelle($id_parcelles,$nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,	$date_attribution)
+			Function update_parcelle($id_parcelles,$nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,	$date_attribution)
 			{
 				
 				$sql="UPDATE `fep_parcelles` SET `nomsecteur` = '".$nomsecteur."',`nombloc` = '".$nombloc."',`ct` = '".$nomct."',`numparcelle` = '".$numparcelle."',`nature_parcelle` = '".$natureparcelle."',`longitude` = '".$xlongitude."',`latitude` = '".$xLatitude."',`attributaire` = '".$id_repertoire."', `date_attribution` = '".$date_attribution."' WHERE `fep_parcelles`.`id_parcelles` = '".$id_parcelles."'";
@@ -659,48 +709,26 @@
 			
 		// INSTALLATION CULTURES
 		
-		function list_installe($saison,$campagne)
+		Function list_installe()
 			{
-				if($saison<>'Choisir une saison' && $campagne<>'Choisir une campagne')
-				{
-				
-					$sql="SELECT DISTINCT `fep_ins_cult`.`id_ins_cult`,`fep_ins_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`, `fep_parcelles`.`attributaire`,`fep_ins_cult`.`id_parcelle`,`fep_ins_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_ins_cult`.`nomsecteur`,`fep_ins_cult`.`nombloc`,`fep_ins_cult`.`numparcelle`, `fep_ins_cult`.`PARCELLE_PRODUCTION`, `fep_ins_cult`.`MODE_SEMIS`,`fep_ins_cult`. `SUPERFICIE_DECLAREE`, `fep_ins_cult`.`SUPERFICIE_MESUREE`, `fep_ins_cult`.`TOPOSEQUENCE`, `fep_ins_cult`.`TRAVAILSOL`, `fep_ins_cult`.`PRATIQUECF`, `fep_ins_cult`.`SRP`, `fep_ins_cult`.`USER_RIPER`, `fep_ins_cult`.`DATE_COLLECTE` 
+					$sql="SELECT DISTINCT `fep_ins_cult`.`id_ins_cult`,`fep_ins_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`, `fep_parcelles`.`id_parcelles`,
+					`fep_parcelles`.`attributaire`,`fep_parcelles`.`attributaire`,`fep_ins_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_ins_cult`.`nomsecteur`,
+					`fep_ins_cult`.`nombloc`,`fep_ins_cult`.`numparcelle`,`fep_ins_cult`.`PARCELLE_PRODUCTION`, `fep_ins_cult`.`MODE_SEMIS`,
+					`fep_ins_cult`. `SUPERFICIE_DECLAREE`, `fep_ins_cult`.`SUPERFICIE_MESUREE`, `fep_ins_cult`.`TOPOSEQUENCE`,
+					 `fep_ins_cult`.`TRAVAILSOL`, `fep_ins_cult`.`PRATIQUECF`, `fep_ins_cult`.`SRP`, `fep_ins_cult`.`USER_RIPER`, 
+					 `fep_ins_cult`.`DATE_COLLECTE` 
 					FROM `fep_ins_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
-					WHERE `fep_ins_cult`.`ID_SAISON`='".$saison."' AND `fep_ins_cult`.`ID_CAMPAGNE`='".$campagne."' 
-					AND `fep_ins_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison` 
-					AND `fep_ins_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
-					AND `fep_parcelles`.`id_parcelles`=`fep_ins_cult`.`id_parcelle`";
-					
-					
-				}
-				if($saison<>'Choisir une saison'&&$campagne=='Choisir une campagne')
-				{
-									
-					$sql="SELECT DISTINCT `fep_ins_cult`.`id_ins_cult`,`fep_ins_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`, `fep_parcelles`.`id_parcelles`,`fep_parcelles`.`attributaire`,`fep_parcelles`.`attributaire`,`fep_ins_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_ins_cult`.`nomsecteur`,`fep_ins_cult`.`nombloc`,`fep_ins_cult`.`numparcelle`,`fep_ins_cult`.`PARCELLE_PRODUCTION`, `fep_ins_cult`.`MODE_SEMIS`,`fep_ins_cult`. `SUPERFICIE_DECLAREE`, `fep_ins_cult`.`SUPERFICIE_MESUREE`, `fep_ins_cult`.`TOPOSEQUENCE`, `fep_ins_cult`.`TRAVAILSOL`, `fep_ins_cult`.`PRATIQUECF`, `fep_ins_cult`.`SRP`, `fep_ins_cult`.`USER_RIPER`, `fep_ins_cult`.`DATE_COLLECTE` 
-					FROM `fep_ins_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
-					WHERE `fep_ins_cult`.`ID_SAISON`='".$saison."' 
-					AND `fep_ins_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE`
+					WHERE `fep_ins_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE`
 					AND `fep_ins_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison`
 					AND `fep_parcelles`.`id_parcelles`=`fep_ins_cult`.`id_parcelle`";
-
-				}
-				if($saison=='Choisir une saison'&&$campagne<>'Choisir une campagne')
-					{
-					$sql="SELECT DISTINCT `fep_ins_cult`.`id_ins_cult`,`fep_ins_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`, `fep_parcelles`.`id_parcelles`,`fep_parcelles`.`attributaire`,`fep_parcelles`.`attributaire`,`fep_ins_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_ins_cult`.`nomsecteur`,`fep_ins_cult`.`nombloc`,`fep_ins_cult`.`numparcelle`,`fep_ins_cult`.`PARCELLE_PRODUCTION`, `fep_ins_cult`.`MODE_SEMIS`,`fep_ins_cult`. `SUPERFICIE_DECLAREE`, `fep_ins_cult`.`SUPERFICIE_MESUREE`, `fep_ins_cult`.`TOPOSEQUENCE`, `fep_ins_cult`.`TRAVAILSOL`, `fep_ins_cult`.`PRATIQUECF`, `fep_ins_cult`.`SRP`, `fep_ins_cult`.`USER_RIPER`, `fep_ins_cult`.`DATE_COLLECTE` 
-					FROM `fep_ins_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
-					WHERE `fep_ins_cult`.ID_CAMPAGNE='".$campagne."' 
-					AND `fep_ins_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE`
-					AND `fep_ins_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison`
-					AND `fep_parcelles`.`id_parcelles`=`fep_ins_cult`.`id_parcelle`";
-					
-					}
 					
 					$conn=fep_connexion();
 					$exe=mysqli_query($conn,$sql);
 					return $exe;
 			}
 			
-		function insert_installation($id_campagne,$id_saison,$nomsecteur,$nombloc,$id_parcelle,$numparcelle,$parcelle_prod,$mode_semis,$superficiedeclaree,$superficiemesuree,$toposequence,$travailsol,$pratiquescf,$srp,$utilisationripper,$date_saisie)
+		Function insert_installation($id_campagne,$id_saison,$nomsecteur,$nombloc,$id_parcelle,$numparcelle,$parcelle_prod,$mode_semis,
+		$superficiedeclaree,$superficiemesuree,$toposequence,$travailsol,$pratiquescf,$srp,$utilisationripper,$date_saisie)
 			{
 		
 			$sql = sprintf("INSERT INTO`fep_ins_cult`(`ID_CAMPAGNE`,`ID_SAISON`,`nomsecteur`,`nombloc`,`id_parcelle`,`numparcelle`,`PARCELLE_PRODUCTION`,`MODE_SEMIS`,
@@ -723,6 +751,7 @@
 				GetSQLValueString($utilisationripper,"text"),
 				GetSQLValueString($date_saisie,"text"));
 			
+				echo $sql;
 		
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);
@@ -754,41 +783,16 @@
 				
 				}
 		// ENTRETIEN CULTURES
-		function list_entretien($numparcelle,$campagne)
+		function list_entretien()
 			{
-				if($numparcelle<>'' && $campagne<>'Choisir une campagne')
-				{
-					$sql="SELECT DISTINCT `fep_entr_cult`.`id_entr_cult`, `fep_entr_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`,  `fep_entr_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_entr_cult`.`nomsecteur`,`fep_entr_cult`.`nombloc`,`fep_entr_cult`.`id_parcelle`,`fep_entr_cult`.`numparcelle`,  `fep_entr_cult`.`DATE_MISE_PLACE_PEPINIERE`,`fep_entr_cult`.`RENDEMENT_ESTIME`,`fep_entr_cult`. `PRODUCTION_ESTIMEE`,  `fep_entr_cult`.`DATE_SEMISREPIQ`,`fep_entr_cult`.`QUANTITES_SEMENCEUTILISEE`,`fep_entr_cult`.`VARIETES_RIZCULTURE`,`fep_entr_cult`.`NIVEAU_SEMENCEUTILISEE`, `fep_entr_cult`.`UTILISATEUR_SEMCERTAME`, `fep_entr_cult`.`UTILISATION_SEMOIRARIZ`,`fep_entr_cult`.`DATE_PREMSARCDESH` 
-			        ,`fep_entr_cult`.`QUANTITENPKAPPL`,`fep_entr_cult`.`DATE_APPLICNPK`,`fep_entr_cult`.`UTILISATION_FUMURE_ORGANIQ`,
-				    `fep_entr_cult`.`DATE_COLLECTE2`   
-					FROM `fep_entr_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
-					WHERE `fep_entr_cult`.`numparcelle`='".$numparcelle."' AND `fep_entr_cult`.ID_CAMPAGNE='".$campagne."'
-					AND `fep_entr_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
-					AND `fep_entr_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison`";
-				}
 				
-				if($numparcelle<>''&&$campagne=='Choisir une campagne')
-				{
 					$sql="SELECT DISTINCT `fep_entr_cult`.`id_entr_cult`, `fep_entr_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`,  `fep_entr_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_entr_cult`.`nomsecteur`,`fep_entr_cult`.`nombloc`,`fep_entr_cult`.`id_parcelle`,`fep_entr_cult`.`numparcelle`,  `fep_entr_cult`.`DATE_MISE_PLACE_PEPINIERE`,`fep_entr_cult`.`RENDEMENT_ESTIME`,`fep_entr_cult`. `PRODUCTION_ESTIMEE`,  `fep_entr_cult`.`DATE_SEMISREPIQ`,`fep_entr_cult`.`QUANTITES_SEMENCEUTILISEE`,`fep_entr_cult`.`VARIETES_RIZCULTURE`,`fep_entr_cult`.`NIVEAU_SEMENCEUTILISEE`, `fep_entr_cult`.`UTILISATEUR_SEMCERTAME`, `fep_entr_cult`.`UTILISATION_SEMOIRARIZ`,`fep_entr_cult`.`DATE_PREMSARCDESH` 
 			        ,`fep_entr_cult`.`QUANTITENPKAPPL`,`fep_entr_cult`.`DATE_APPLICNPK`,`fep_entr_cult`.`UTILISATION_FUMURE_ORGANIQ`,
 				    `fep_entr_cult`.`DATE_COLLECTE2`   
 					FROM `fep_entr_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
-					WHERE `fep_entr_cult`.`numparcelle`='".$numparcelle."'
-					AND `fep_entr_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
+					WHERE `fep_entr_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
 					AND `fep_entr_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison`";
-				}
 				
-				if($numparcelle==''&&$campagne<>'Choisir une campagne')
-					{
-					$sql="SELECT DISTINCT `fep_entr_cult`.`id_entr_cult`, `fep_entr_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`,  `fep_entr_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_entr_cult`.`nomsecteur`,`fep_entr_cult`.`nombloc`,`fep_entr_cult`.`id_parcelle`,`fep_entr_cult`.`numparcelle`,  `fep_entr_cult`.`DATE_MISE_PLACE_PEPINIERE`,`fep_entr_cult`.`RENDEMENT_ESTIME`,`fep_entr_cult`. `PRODUCTION_ESTIMEE`,  `fep_entr_cult`.`DATE_SEMISREPIQ`,`fep_entr_cult`.`QUANTITES_SEMENCEUTILISEE`,`fep_entr_cult`.`VARIETES_RIZCULTURE`,`fep_entr_cult`.`NIVEAU_SEMENCEUTILISEE`, `fep_entr_cult`.`UTILISATEUR_SEMCERTAME`, `fep_entr_cult`.`UTILISATION_SEMOIRARIZ`,`fep_entr_cult`.`DATE_PREMSARCDESH` 
-			        ,`fep_entr_cult`.`QUANTITENPKAPPL`,`fep_entr_cult`.`DATE_APPLICNPK`,`fep_entr_cult`.`UTILISATION_FUMURE_ORGANIQ`,
-				    `fep_entr_cult`.`DATE_COLLECTE2`   
-					FROM `fep_entr_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
-					WHERE `fep_entr_cult`.ID_CAMPAGNE='".$campagne."'
-					AND `fep_entr_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
-					AND `fep_entr_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison`";
-					}		
-					
 					$conn=fep_connexion();
 					$exe=mysqli_query($conn,$sql);
 					return $exe;
@@ -830,10 +834,16 @@
 			
 			function select_entretien($id_install)
 			{
-				$sql="SELECT DISTINCT `fep_entr_cult`.`id_entr_cult`,`fep_entr_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE` as camp, `fep_entr_cult`.`ID_SAISON`,`fep_saison`.`Saison`,`fep_entr_cult`.`nomsecteur`,`fep_entr_cult`.`nombloc`,`fep_entr_cult`.`id_parcelle`,`fep_entr_cult`.`numparcelle`, `fep_entr_cult`.`DATE_MISE_PLACE_PEPINIERE`, `fep_entr_cult`.`RENDEMENT_ESTIME`,`fep_entr_cult`. `PRODUCTION_ESTIMEE`,`fep_entr_cult`.`DATE_SEMISREPIQ`, `fep_entr_cult`.`QUANTITES_SEMENCEUTILISEE`,`fep_entr_cult`.`VARIETES_RIZCULTURE`,`fep_entr_cult`.`NIVEAU_SEMENCEUTILISEE`,`fep_entr_cult`.`UTILISATEUR_SEMCERTAME`,`fep_entr_cult`.`UTILISATION_SEMOIRARIZ`, `fep_entr_cult`.`DATE_PREMSARCDESH`, `fep_entr_cult`.`QUANTITENPKAPPL`, `fep_entr_cult`.`DATE_APPLICNPK`, `fep_entr_cult`.`UTILISATION_FUMURE_ORGANIQ`, `fep_entr_cult`.`DATE_COLLECTE2`
+				$sql="SELECT DISTINCT `fep_entr_cult`.`id_entr_cult`,`fep_entr_cult`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE` as camp, `fep_entr_cult`.`ID_SAISON`,`fep_saison`.`Saison`,
+				`fep_entr_cult`.`nomsecteur`,`fep_entr_cult`.`nombloc`,`fep_entr_cult`.`id_parcelle`,`fep_entr_cult`.`numparcelle`,`fep_parcelles`.`ct`, `fep_entr_cult`.`DATE_MISE_PLACE_PEPINIERE`,
+				 `fep_entr_cult`.`RENDEMENT_ESTIME`,`fep_entr_cult`. `PRODUCTION_ESTIMEE`,`fep_entr_cult`.`DATE_SEMISREPIQ`, `fep_entr_cult`.`QUANTITES_SEMENCEUTILISEE`,
+				 `fep_entr_cult`.`VARIETES_RIZCULTURE`,`fep_entr_cult`.`NIVEAU_SEMENCEUTILISEE`,`fep_entr_cult`.`UTILISATEUR_SEMCERTAME`,`fep_entr_cult`.`UTILISATION_SEMOIRARIZ`, 
+				 `fep_entr_cult`.`DATE_PREMSARCDESH`, `fep_entr_cult`.`QUANTITENPKAPPL`, `fep_entr_cult`.`DATE_APPLICNPK`, `fep_entr_cult`.`UTILISATION_FUMURE_ORGANIQ`,
+				  `fep_entr_cult`.`DATE_COLLECTE2`
 				FROM `fep_entr_cult`,`fep_campagne`,`fep_saison`,`fep_parcelles` 
 				WHERE `fep_entr_cult`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
 				AND `fep_entr_cult`.`ID_SAISON`=`fep_saison`.`Id_Saison` 
+				AND `fep_entr_cult`.`id_parcelle`=`fep_parcelles`.`id_parcelles`
 				AND `fep_entr_cult`.`id_entr_cult`='".$id_install."'";
 				
 				
@@ -842,10 +852,18 @@
 				return $exe;
 			}	
 			
-			function update_entretien($id_campagne,$id_saison,$nomsecteur,$nombloc,$id_parcelle,$numparcelle,$datepepiniere,$rendement_est,$production_est,$date_semisrepiq,$niveau_sem,$ustilisation_sem,$date_sarclage,$quantitenpk,$date_applNPK,$utilisation_fumure,$date_saisie2,$id)
+			function update_entretien($id_campagne,$id_saison,$nomsecteur,$nombloc,$id_parcelle,$numparcelle,$datepepiniere,
+			$rendement_est,$production_est,$date_semisrepiq,$qtesemuti,$vari_riz,$niv_sem,$utilisateur_semence,$ustilisation_semoir,$date_sarclage,$quantitenpk,
+			$date_applNPK,$utilisation_fumure,$date_saisie2,$id)
 				{
-					$sql = "UPDATE `fep_ins_cult` SET `ID_CAMPAGNE`= '".$id_campagne."',`ID_SAISON`='".$id_saison."',`nomsecteur`='".$nomsecteur."',`nombloc` ='".$nombloc."',`id_parcelle`= '".$id_parcelle."',`numparcelle`= '".$numparcelle."',`DATE_MISE_PLACE_PEPINIERE`='".$datepepiniere."',`RENDEMENT_ESTIME`='".$rendement_est."',`PRODUCTION_ESTIMEE`='".$production_est."',`DATE_SEMISREPIQ`='".$date_semisrepiq."',`UTILISATEUR_SEMCERTAME`='".$niveau_sem."',`UTILISATION_SEMOIRARIZ`='".$ustilisation_sem."',`DATE_PREMSARCDESH`='".$date_sarclage."',`QUANTITENPKAPPL`='".$quantitenpk."',`DATE_APPLICNPK`='".$date_applNPK."',`UTILISATION_FUMURE_ORGANIQ`='".$utilisation_fumure."',`DATE_COLLECTE2`='".$date_saisie2.
-					"' WHERE `fep_ins_cult`.`id_ins_cult` =".$id;
+					$sql = "UPDATE `fep_entr_cult` SET `ID_CAMPAGNE`= '".$id_campagne."',`ID_SAISON`='".$id_saison."',`nomsecteur`='".$nomsecteur."',
+					`nombloc` ='".$nombloc."',`id_parcelle`= '".$id_parcelle."',`numparcelle`= '".$numparcelle."',`DATE_MISE_PLACE_PEPINIERE`='".$datepepiniere."',
+					`RENDEMENT_ESTIME`='".$rendement_est."',`PRODUCTION_ESTIMEE`='".$production_est."',`DATE_SEMISREPIQ`='".$date_semisrepiq."',
+					`QUANTITES_SEMENCEUTILISEE`='".$qtesemuti."',`VARIETES_RIZCULTURE`='".$vari_riz."',`NIVEAU_SEMENCEUTILISEE`='".$niv_sem."',  
+					`UTILISATEUR_SEMCERTAME`='".$utilisateur_semence."',`UTILISATION_SEMOIRARIZ`='".$ustilisation_semoir."',`DATE_PREMSARCDESH`='".$date_sarclage."',
+					`QUANTITENPKAPPL`='".$quantitenpk."',`DATE_APPLICNPK`='".$date_applNPK."',`UTILISATION_FUMURE_ORGANIQ`='".$utilisation_fumure."',
+					`DATE_COLLECTE2`='".$date_saisie2.
+					"' WHERE `fep_entr_cult`.`id_entr_cult` =".$id;
 				
 					
 					$conn=fep_connexion();
@@ -865,55 +883,71 @@
 				return $exe;
 				}
 		
-			function list_op_recolte($saison,$campagne)
+			Function select_op($id)
+			{
+
+				$sql="SELECT `fep_post_recolt`.`id_post_recol`,`fep_post_recolt`.`ID_CAMPAGNE`,`fep_post_recolt`.`ID_SAISON`,`fep_post_recolt`.`numparcelle`,
+				`fep_post_recolt`.`id_parcelle`,`fep_post_recolt`.`INDICE_CLIMATIQUE`,
+				`fep_post_recolt`.`POIDS_CARRE_RENDEMENT`,`fep_post_recolt`.`RENDEMENT_MOY_EST`,`fep_post_recolt`.`PRODUCTION_EST`,
+				`fep_post_recolt`.`DATE_RECOLTE`,`fep_post_recolt`.`RECOLTE_MOYENNE`,
+				`fep_post_recolt`.`PRODUCTION_REELLE`,`fep_post_recolt`.`TAUX_HUMIDITE`,`fep_campagne`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`,
+				`fep_saison`.`Saison`,`fep_saison`.`Id_Saison`,`fep_parcelles`.`nomsecteur`,`fep_parcelles`.`ct`,`fep_parcelles`.`nombloc`
+				 FROM `fep_post_recolt`,`fep_campagne`,`fep_saison`,`fep_parcelles`
+				 WHERE `fep_post_recolt`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE`				 
+				 AND `fep_post_recolt`.`ID_SAISON`=`fep_saison`.`Id_Saison`
+				 AND `fep_post_recolt`.`id_parcelle`=`fep_parcelles`.`id_parcelles`
+				 AND  `fep_post_recolt`.`id_post_recol`=".$id;
+
+				$conn=fep_connexion();
+				$exe=mysqli_query($conn,$sql);
+				return $exe;
+				 
+			}
+
+			Function list_op_recolte()
 				{
 				
-				if($saison<>'Choisir une saison' && $campagne<>'Choisir une campagne')
-				{	
-				$sql="SELECT `fep_post_recolt`.`ID_CAMPAGNE`,`fep_post_recolt`.`ID_SAISON`,`fep_post_recolt`.`numparcelle`,
+				
+				$sql="SELECT `fep_post_recolt`.`id_post_recol`,`fep_post_recolt`.`ID_CAMPAGNE`,`fep_post_recolt`.`ID_SAISON`,`fep_post_recolt`.`numparcelle`,
 				`fep_post_recolt`.`id_parcelle`,`fep_post_recolt`.`INDICE_CLIMATIQUE`,
 				`fep_post_recolt`.`POIDS_CARRE_RENDEMENT`,`fep_post_recolt`.`RENDEMENT_MOY_EST`,`fep_post_recolt`.`PRODUCTION_EST`,
 				`fep_post_recolt`.`DATE_RECOLTE`,`fep_post_recolt`.`RECOLTE_MOYENNE`,
 				`fep_post_recolt`.`PRODUCTION_REELLE`,`fep_post_recolt`.`TAUX_HUMIDITE`,`fep_campagne`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`,
 				`fep_saison`.`Saison`,`fep_saison`.`Id_Saison`
 				 FROM `fep_post_recolt`,`fep_campagne`,`fep_saison`
-				 WHERE `fep_campagne`.`ID_CAMPAGNE` = '".$campagne."'
-				 AND `fep_saison`.`ID_SAISON`='".$saison."'
-				 AND `fep_post_recolt`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
+				 WHERE `fep_post_recolt`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
 				 AND `fep_post_recolt`.`ID_SAISON`=`fep_saison`.`Id_Saison`";
-				}
-				if($saison=='Choisir une saison' && $campagne<>'Choisir une campagne')
-				{
-				$sql="SELECT `fep_post_recolt`.`ID_CAMPAGNE`,`fep_post_recolt`.`ID_SAISON`,`fep_post_recolt`.`numparcelle`,
-				`fep_post_recolt`.`id_parcelle`,`fep_post_recolt`.`INDICE_CLIMATIQUE`,
-				`fep_post_recolt`.`POIDS_CARRE_RENDEMENT`,`fep_post_recolt`.`RENDEMENT_MOY_EST`,`fep_post_recolt`.`PRODUCTION_EST`,
-				`fep_post_recolt`.`DATE_RECOLTE`,`fep_post_recolt`.`RECOLTE_MOYENNE`,
-				`fep_post_recolt`.`PRODUCTION_REELLE`,`fep_post_recolt`.`TAUX_HUMIDITE`,`fep_campagne`.`ID_CAMPAGNE`,
-				`fep_campagne`.`CAMPAGNE`,`fep_saison`.`Saison`,`fep_saison`.`Id_Saison`					
-				 FROM `fep_post_recolt`,`fep_campagne`,`fep_saison`
-				 WHERE `fep_campagne`.`ID_CAMPAGNE` = '".$campagne."'
-				 AND `fep_post_recolt`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
-				 AND `fep_post_recolt`.`ID_SAISON`=`fep_saison`.`Id_Saison`";
-				}
-				if($saison<>'Choisir une saison' && $campagne=='Choisir une campagne')
-				{
-				$sql="SELECT `fep_post_recolt`.`ID_CAMPAGNE`,`fep_post_recolt`.`ID_SAISON`,`fep_post_recolt`.`numparcelle`,
-				`fep_post_recolt`.`id_parcelle`,`fep_post_recolt`.`INDICE_CLIMATIQUE`,				`fep_post_recolt`.`POIDS_CARRE_RENDEMENT`,`fep_post_recolt`.`RENDEMENT_MOY_EST`,`fep_post_recolt`.`PRODUCTION_EST`,
-				`fep_post_recolt`.`DATE_RECOLTE`,`fep_post_recolt`.`RECOLTE_MOYENNE`,				`fep_post_recolt`.`PRODUCTION_REELLE`,`fep_post_recolt`.`TAUX_HUMIDITE`,`fep_campagne`.`ID_CAMPAGNE`,`fep_campagne`.`CAMPAGNE`,
-				`fep_saison`.`Saison`,`fep_saison`.`Id_Saison`					
-				 FROM `fep_post_recolt`,`fep_campagne`,`fep_saison`
-				 WHERE `fep_saison`.`Saison`='".$saison."'
-				 AND `fep_post_recolt`.`ID_CAMPAGNE`=`fep_campagne`.`ID_CAMPAGNE` 
-				 AND `fep_post_recolt`.`ID_SAISON`=`fep_saison`.`Id_Saison`";
-				}
 				
-				
-				
+	
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);
 				return $exe;
 				}
-		
+		Function valide_pr($num_op)
+		{
+			$sql="UPDATE `fep_post_recolt` SET `etat`=1 WHERE  `id_post_recol`=".$num_op;
+
+			$conn=fep_connexion();
+			$exe=mysqli_query($conn,$sql);
+			return $exe;
+		}
+		Function valide_ec($num_ec)
+		{
+			
+			$sql="UPDATE `fep_entr_cult` SET `etat`=1 WHERE  `id_entr_cult`=".$num_ec;
+
+			$conn=fep_connexion();
+			$exe=mysqli_query($conn,$sql);
+			return $exe;
+		}
+		Function valide_ins($num_ins)
+		{
+			$sql="UPDATE `fep_ins_cult` SET `etat`=1 WHERE  `id_ins_cult`=".$num_ins;
+
+			$conn=fep_connexion();
+			$exe=mysqli_query($conn,$sql);
+			return $exe;
+		}
 		// REGION
 			function liste_reg()
 			{
@@ -937,13 +971,24 @@
 		// COMMUNE
 		function liste_comm()
 			{
-				$sql="SELECT `ID_COMMUNE`,`COMMUNE`, `fep_departement`.`DEPARTEMENT` AS `DEPART` FROM `fep_commune`,`fep_departement` WHERE `fep_commune`.`ID_DEPARTEMENT`=`fep_departement`. `ID_DEPARTEMENT` ORDER BY `DEPARTEMENT` DESC";
+				$sql="SELECT `ID_COMMUNE`,`COMMUNE`, `fep_departement`.`DEPARTEMENT` AS `DEPART` FROM `fep_commune`,`fep_departement` 
+				WHERE `fep_commune`.`ID_DEPARTEMENT`=`fep_departement`. `ID_DEPARTEMENT` ORDER BY `DEPARTEMENT` DESC";
 				
 					$conn=fep_connexion();
 					$exe=mysqli_query($conn,$sql);
 					return $exe;
 				
 			}
+		// VILLAGES
+		function liste_village()
+		{
+			$sql="SELECT DISTINCT `village`  FROM `fep_repertoire`  ORDER BY `village` ASC";
+			
+				$conn=fep_connexion();
+				$exe=mysqli_query($conn,$sql);
+				return $exe;
+			
+		}
 		// USERS
 		Function liste_users()
 		{
@@ -957,7 +1002,8 @@
 		// PARCELLES		
 		function list_parcelles()
 			{
-					$sql="SELECT `id_parcelles`,`nomsecteur`,`nombloc`,`ct`,`numparcelle`,`nature_parcelle`,`longitude`,`latitude`,`attributaire`,`date_attribution` FROM `fep_parcelles` ORDER BY `nomsecteur` ASC";
+				$sql="SELECT `id_parcelles`,`nomsecteur`,`nombloc`,`ct`,`numparcelle`,`nature_parcelle`,`longitude`,`latitude`,`attributaire`,`date_attribution` 
+				FROM `fep_parcelles` ORDER BY `nomsecteur` ASC";
 			
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);
@@ -965,19 +1011,32 @@
 			
 			}
 			
-		function insert_parcelles($nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,$date_attribution)
+		Function insert_parcelles($nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,$date_attribution)
 			{
-				$sql=sprintf("INSERT INTO `fep_parcelles` (`nomsecteur`,`nombloc`,`ct`,`numparcelle`,`nature_parcelle`,`longitude`,`latitude`,`attributaire`,`date_attribution`) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+				
+				$sql="INSERT INTO `fep_parcelles`(`nomsecteur`,`nombloc`,`ct`,`numparcelle`,`nature_parcelle`,`longitude`,`latitude`,
+				`attributaire`,`date_attribution`)
+				VALUES ( '".$nomsecteur."','".$nombloc."','".$nomct."','".$numparcelle."','".$natureparcelle."','".$xlongitude."','".$xLatitude."',
+				'".$id_repertoire."','".$date_attribution."')";	
+				
+				echo $sql;
 		
-				GetSQLValueString($nomsecteur,"text"),
-				GetSQLValueString($nombloc,"text"),
-				GetSQLValueString($nomct,"text"),
-				GetSQLValueString($numparcelle,"text"),
-				GetSQLValueString($natureparcelle,"text"),
-				GetSQLValueString($xlongitude,"text"),
-				GetSQLValueString($xLatitude,"text"),
-				GetSQLValueString($id_repertoire,"int"),
-				GetSQLValueString($date_attribution,"date"));
+				$conn=fep_connexion();
+				$exe=mysqli_query($conn,$sql);
+				return $exe;
+				
+				//$sql=sprintf("INSERT INTO `fep_parcelles` (`nomsecteur`,`nombloc`,`ct`,`numparcelle`,`nature_parcelle`,`longitude`,`latitude`,`attributaire`,`date_attribution`) 
+				//VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+		
+				//GetSQLValueString($nomsecteur,"text"),
+				//GetSQLValueString($nombloc,"text"),
+				//GetSQLValueString($nomct,"text"),
+				//GetSQLValueString($numparcelle,"text"),
+				//GetSQLValueString($natureparcelle,"text"),
+				//GetSQLValueString($xlongitude,"text"),
+				//GetSQLValueString($xLatitude,"text"),
+				//GetSQLValueString($id_repertoire,"int"),
+				//GetSQLValueString($date_attribution,"date"));
 			
 				$conn=fep_connexion();
 				$exe=mysqli_query($conn,$sql);

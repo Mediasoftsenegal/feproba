@@ -10,7 +10,7 @@ $result=liste_users();
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Paramètres >> Utilisateurs</h1>
+            <h1>Paramètres >> <i class="nav-icon fas fa-users"></i> Utilisateurs</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">

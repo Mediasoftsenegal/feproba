@@ -1,5 +1,5 @@
 <?php
-require('connexion.php');
+require('../connexion.php');
  //Union	
 // Validation installation culture
 	if (isset($_POST['validebae']))
@@ -7,7 +7,7 @@ require('connexion.php');
 		$resultat=valide_ins($_POST['num_ins']);
 		if ($resultat)
 			{
-			header('location:../suv/menu_sa.php?page=tab_valide');
+			header('location:menu_sa.php?page=tab_valide');
 			}
 	}
 // validation entretien culture
@@ -16,7 +16,7 @@ require('connexion.php');
 		$resultat=valide_ec($_POST['num_ec']);
 		if ($resultat)
 			{
-			header('location:../suv/menu_sa.php?page=tab_valide');
+			header('location:menu_sa.php?page=tab_valide');
 			}
 	}
 // validation opérations post récoltes
@@ -25,7 +25,7 @@ require('connexion.php');
 		$resultat=valide_pr($_POST['num_pr']);
 		if ($resultat)
 			{
-			header('location:../suv/menu_sa.php?page=tab_valide');
+			header('location:menu_sa.php?page=tab_valide');
 			}
 	}	
 // INSERTION
@@ -41,7 +41,7 @@ require('connexion.php');
 			$resultat=insert_union($nom_union,$adresse,$president,$nom_magasin);
 			if($resultat)
 			{
-			header('location:../param/menu_pr.php?page=table_union');
+			header('location:menu_pr.php?page=table_union');
 			}	
 			break;
 // UPDATE
@@ -55,7 +55,7 @@ require('connexion.php');
 			$resultat=update_union($id,$nom_union,$adresse,$president,$nom_magasin);
 			if ($resultat)
 			{
-			header('location:../param/menu_pr.php?page=table_union');
+			header('location:menu_pr.php?page=table_union');
 			}
 			break;
 			
@@ -154,11 +154,19 @@ require('connexion.php');
 				$nom_reseau=$_POST['NOM_RESEAU'];
 			
 				
-				$resultat=insere_suiviagro($campagne,$saison,$prenom,$region,$departement,$commune,$village,$statutproducteur,$codeparcelle,$parcellessenence,$superficiedecalee,$superficiemesuree,$coordonnex,$coordonney,$toposequence,$travailsol,$pratiquecf,$userripper,$datepremplis,$modesemis,$datemiseplace,$date_semisrepiq,$qte_semence_utilisee,$variete_riz,$niveau_semence,$utilisat_semcertame,$Utilisation_semoirariz,$date_premsarcdesh,$qtenpkappl,$date_applcnpk,$utilisation_fumure_org,$date_deux_sarcl,$date_mariage,$quantiteur_appl,$date_application_uree,$date_trois_sacdesh,$quantiteuree2appli,$date_applic_uree2,$type_attaque,$indice_climatique,$nbr_lignemoy,$nbr_piedmoy,$nbr_paniculesmoy,$poids_moy_panicule,$densite_moy,$rendement_estimee,$product_estimee,$parcelle_recoltee,$date_recolte,$production_obtenue,$rendementHA,$qte_remboursee,$qte_commercialisee,$qte_auto_cons,$observations,$nom_reseau);
+				$resultat=insere_suiviagro($campagne,$saison,$prenom,$region,$departement,$commune,$village,$statutproducteur,$codeparcelle,
+				$parcellessenence,$superficiedecalee,$superficiemesuree,$coordonnex,$coordonney,$toposequence,$travailsol,$pratiquecf,
+				$userripper,$datepremplis,$modesemis,$datemiseplace,$date_semisrepiq,$qte_semence_utilisee,$variete_riz,$niveau_semence,
+				$utilisat_semcertame,$Utilisation_semoirariz,$date_premsarcdesh,$qtenpkappl,$date_applcnpk,$utilisation_fumure_org,
+				$date_deux_sarcl,$date_mariage,$quantiteur_appl,$date_application_uree,$date_trois_sacdesh,$quantiteuree2appli,
+				$date_applic_uree2,$type_attaque,$indice_climatique,$nbr_lignemoy,$nbr_piedmoy,$nbr_paniculesmoy,
+				$poids_moy_panicule,$densite_moy,$rendement_estimee,$product_estimee,$parcelle_recoltee,
+				$date_recolte,$production_obtenue,$rendementHA,$qte_remboursee,$qte_commercialisee,
+				$qte_auto_cons,$observations,$nom_reseau);
 				
 				if($resultat)
 				{
-					header('location:../suv/menu_sa.php?page=table_suiviagronom');
+					header('location:menu_sa.php?page=table_suiviagronom');
 				}
 				break;
 		}
@@ -170,7 +178,7 @@ require('connexion.php');
 			$resultat=insert_campagne($campagne);
 			if($resultat)
 			{
-				header('location:../param/menu_pr.php?page=tab_campagne');
+				header('location:menu_pr.php?page=tab_campagne');
 			}
 		}
 		// PARCELLES 
@@ -180,7 +188,7 @@ require('connexion.php');
 			$resultat=insert_parcelles($nomsecteur,$nombloc,$nomct,$numparcelle,$natureparcelle,$xlongitude,$xLatitude,$id_repertoire,$date_attribution);
 			if($resultat)
 			{
-				header('location:../param/menu_pr.php?page=tab_parcelles');
+				header('location:menu_pr.php?page=tab_parcelles');
 			}
 		}
 
@@ -191,7 +199,7 @@ require('connexion.php');
 				
 				if($resultat)
 				{
-					header('location:../param/menu_pr.php?page=tab_parcelles');
+					header('location:menu_pr.php?page=tab_parcelles');
 				}
 			}
 		// NATURE PARCELLE	
@@ -202,7 +210,7 @@ require('connexion.php');
 			$resultat=insert_variete($nom_variete);
 			if ($resultat)
 			{
-			header('location:../param/menu_pr.php?page=table_variete');
+			header('location:menu_pr.php?page=table_variete');
 			}
 		}
 		
@@ -217,30 +225,51 @@ require('connexion.php');
 			$resultat=insert_specul($type_variete,$nature);
 			if ($resultat)
 			{
-			header('location:../param/menu_pr.php?page=table_specul');
+			header('location:menu_pr.php?page=table_specul');
 			}
 		}	
 		// INSTALLATION
-		if (isset($_GET['bt_installation'])) 
+		if (isset($_POST['bt_installation'])) 
 		{
-			extract($_GET);
+			$id_campagne =$_SESSION['id_campagne'];
+			$id_saison =$_SESSION['id_saison'];
+			$nomsecteur=$_POST['secteur'];
+			$nombloc=$_POST['numbloc'];
+			$numparcelle =$_POST['numparcelle'];
+
 			$numeroparcelle=idparcelle($nomsecteur,$nombloc,$numparcelle,$ct);
 			$tert=mysqli_fetch_array($numeroparcelle);
 			
-			$resultat=insert_installation($id_campagne,$id_saison,$nomsecteur,$nombloc,$tert['id_parcelles'],$numparcelle,$parcelle_prod,$mode_semis,$superficiedeclaree,$superficiemesuree,$toposequence,$travailsol,$pratiquescf,$srp,$utilisationripper,$date_saisie);
+			$parcelle_prod=$_POST['parcelle_prod'];
+			$mode_semis=$_POST['mode_semis'];
+			$superficiedeclaree=$_POST['superficiedeclaree'];
+			$superficiemesuree=$_POST['superficiemesuree'];
+			$toposequence=$_POST['toposequence'];
+			$travailsol=$_POST['travailsol'];
+			$pratiquescf=$_POST['pratiquescf'];
+			$srp=$_POST['srp'];
+			$utilisationripper=$_POST['utilisationripper'];
+			$date_saisie=date('Ymd');
+				echo $parcelle_prod;
+			$resultat=insert_installation($id_campagne,$id_saison,$nomsecteur,$nombloc,$tert['id_parcelles'],$numparcelle,
+			$parcelle_prod,$mode_semis,$superficiedeclaree,$superficiemesuree,$toposequence,$travailsol,$pratiquescf,
+			$srp,$utilisationripper,$date_saisie);
 			
 			if($resultat)
 			{
-				header('location:../suv/menu_sa.php?page=tab_ins_cul');
+				//header('location:../suv/menu_sa.php?page=tab_ins_cul');
+				echo '<META HTTP-EQUIV="Refresh" Content="0; URL=menu_sa.php?page=tab_ins_cul">';
 			}
 		}
 		if (isset($_POST['bt_modif_installation'])){
 			
-			$resultat=update_installation($_POST['id_campagne'],$_POST['id_saison'],$_POST['nomsecteur'],$_POST['nombloc'],$_POST['numparcelle'],$_POST['parcelle_prod'],$_POST['mode_semis'],$_POST['superficiedeclaree'],$_POST['superficiemesuree'],$_POST['toposequence'],$_POST['travailsol'],$_POST['pratiquescf'],$_POST['srp'],$_POST['utilisationripper'],$_POST['date_saisie'],$_POST['id_ins']);
+			$resultat=update_installation($_POST['id_campagne'],$_POST['id_saison'],$_POST['nomsecteur'],$_POST['nombloc'],$_POST['numparcelle'],
+			$_POST['parcelle_prod'],$_POST['mode_semis'],$_POST['superficiedeclaree'],$_POST['superficiemesuree'],$_POST['toposequence'],
+			$_POST['travailsol'],$_POST['pratiquescf'],$_POST['srp'],$_POST['utilisationripper'],$_POST['date_saisie'],$_POST['id_ins']);
 			
 			if($resultat)
 			{
-				header('location:../suv/menu_sa.php?page=tab_ins_cul');
+				header('location:menu_sa.php?page=tab_ins_cul');
 			}
 		}
 		// ENTRETIEN
@@ -249,19 +278,46 @@ require('connexion.php');
 			extract($_GET);
 			$ter=idparcelle($nomsecteur,$nombloc,$numparcelle,$ct);
 			$row=(mysqli_fetch_array($ter));
-			$resultat=insert_entretien($id_campagne,$id_saison,$nomsecteur,$nombloc,$row['id_parcelles'],$numparcelle,$datepepiniere,$rendement_est,$production_est,$date_semisrepiq,$quantite_sem,$variete_riz,$niveau_sem,$utilisateur_sem,$ustilisation_sem,$date_sarclage,$quantitenpk,$date_applNPK,$utilisation_fumure,$date_saisie2);
+			$resultat=insert_entretien($id_campagne,$id_saison,$nomsecteur,$nombloc,$row['id_parcelles'],$numparcelle,$datepepiniere,$rendement_est,
+			$production_est,$date_semisrepiq,$quantite_sem,$variete_riz,$niveau_sem,$utilisateur_semence,$ustilisation_semoir,$date_sarclage,$quantitenpk,
+			$date_applNPK,$utilisation_fumure,$date_saisie2);
 			if($resultat)
 			{
-				header('location:../suv/menu_sa.php?page=tab_ent_cul');
+				header('location:menu_sa.php?page=tab_ent_cul');
 			}
 		}
-		if (isset($_POST['bt_modif_installation'])){
+		if (isset($_POST['bt_modif_entretien'])){
 			
-			$resultat=update_entretien($_POST['id_campagne'],$_POST['id_saison'],$_POST['nomsecteur'],$_POST['nombloc'],$_POST['numparcelle'],$_POST['parcelle_prod'],$_POST['mode_semis'],$_POST['superficiedeclaree'],$_POST['superficiemesuree'],$_POST['toposequence'],$_POST['travailsol'],$_POST['pratiquescf'],$_POST['srp'],$_POST['utilisationripper'],$_POST['date_saisie'],$_POST['id_ins']);
 			
+			$resultat=update_entretien($_POST['id_campagne'],$_POST['id_saison'],$_POST['nomsecteur'],$_POST['nombloc'],$_POST['idparcelle'],								
+			$_POST['numparcelle'],$_POST['datepepiniere'],$_POST['rendement_est'],$_POST['production_est'],$_POST['date_semisrepiq'],						
+			$_POST['quantite_sem'],$_POST['variete_riz'],$_POST['niveau_sem'],$_POST['utilisateur_semence'],$_POST['ustilisation_semoir'],$_POST['date_sarclage'],$_POST['quantitenpk'],								
+			$_POST['date_applNPK'],$_POST['utilisation_fumure'],$_POST['date_saisie2'],$_POST['id_entr_cult']);							
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	
 			if($resultat)
 			{
-				header('location:../suv/menu_sa.php?page=tab_ent_cul');
+				header('location:menu_sa.php?page=tab_ent_cul');
 			}
 		}
 		// OPERATIONS POST RECOLTES
@@ -270,11 +326,12 @@ require('connexion.php');
 			extract($_GET);
 			$ter=idparcelle($nomsecteur,$nombloc,$numparcelle,$ct);
 			$row=(mysqli_fetch_array($ter));
-			$resultat=insert_op_post($id_campagne,$id_saison,$numparcelle,$row['id_parcelles'],$INDICE_CLIMATIQUE,$POIDS_CARRE_RENDEMENT,$RENDEMENT_MOY_EST,$PRODUCTION_EST,$DATE_RECOLTE,$RECOLTE_MOYENNE,$PRODUCTION_REELLE,$TAUX_HUMIDITE);
+			$resultat=insert_op_post($id_campagne,$id_saison,$numparcelle,$row['id_parcelles'],$INDICE_CLIMATIQUE,$POIDS_CARRE_RENDEMENT,$RENDEMENT_MOY_EST,
+			$PRODUCTION_EST,$DATE_RECOLTE,$RECOLTE_MOYENNE,$PRODUCTION_REELLE,$TAUX_HUMIDITE);
 			
 			if($resultat)
 			{
-				header('location:../suv/menu_sa.php?page=tab_op_recol');
+				header('location:menu_sa.php?page=tab_op_recol');
 			}
 			
 		}
@@ -295,7 +352,7 @@ require('connexion.php');
 				
 				if($resultat)
 				{
-				header('location:../param/menu_pr.php?page=table_rep');
+				header('location:menu_pr.php?page=table_rep');
 				}
 			}
 		if (isset($_GET['bt_membre']))
@@ -306,7 +363,7 @@ require('connexion.php');
 			
 			if($resultat)
 				{
-				header('location:../param/menu_pr.php?page=table_rep');
+				header('location:menu_pr.php?page=table_rep');
 				}
 			}
 		// DISPONIBILTE

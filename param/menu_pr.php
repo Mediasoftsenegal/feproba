@@ -25,6 +25,11 @@ $sec=$_GET['sec'];
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -99,7 +104,7 @@ $sec=$_GET['sec'];
           </li>
           <li class="nav-item">
             <a href="menu_pr.php?page=table_variete" class="nav-link">
-              <i class="nav-icon fas fa-chart-pie"></i>
+              <i class="nav-icon fas fa-warehouse"></i>
               <p >Nature parcelle</p>
             </a>
           </li>
@@ -111,19 +116,19 @@ $sec=$_GET['sec'];
           </li>
           <li class="nav-item">
             <a href="menu_pr.php?page=tab_saison" class="nav-link">
-              <i class="nav-icon fas fa-adjust"></i>
+              <i class="nav-icon fas fa-asterisk"></i>
               <p >Saison</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="menu_pr.php?page=tab_campagne" class="nav-link">
-              <i class="nav-icon fas fa-adjust"></i>
+              <i class="nav-icon fas fa-anchor"></i>
               <p >Campagne</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="menu_pr.php?page=table_user" class="nav-link">
-              <i class="nav-icon fas fa-adjust"></i>
+              <i class="nav-icon fas fa-users"></i>
               <p >Utilisateurs</p>
             </a>
           </li>        
@@ -153,13 +158,13 @@ $sec=$_GET['sec'];
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
+<script src="../assets/js//adminlte.js"></script>
 
 
 <!-- PAGE PLUGINS -->
@@ -172,7 +177,6 @@ $sec=$_GET['sec'];
 <script src="../assets/js/jquery.dataTables.min.js"></script>
 <script src="../assets/js/dataTables.bootstrap4.min.js"></script>
 <script src="../assets/js/dataTables.responsive.min.js"></script>
-<script src="../assets/js/responsive.bootstrap4.min.js"></script>
 <script src="../assets/js/dataTables.buttons.min.js"></script>
 <script src="../assets/js/buttons.bootstrap4.min.js"></script>
 <script src="../assets/js/jszip.min.js"></script>
@@ -183,8 +187,6 @@ $sec=$_GET['sec'];
 <script src="../assets/js/buttons.colVis.min.js"></script>
 <!-- AdminLTE App -->
 <script src="../assets/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="../assets/js/demo.js"></script>
 <!-- Page specific script -->
 <script>
   $(function () {

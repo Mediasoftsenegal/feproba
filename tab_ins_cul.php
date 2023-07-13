@@ -275,7 +275,7 @@ if (isset($_POST['recher']))
 									<div class="form-group"></div>	
 								</div>
 								 </div>
-						      ²<div class="modal-footer">
+						      <div class="modal-footer">
 						        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
 						        <button type="submit" class="btn btn-primary" name="bt_installation" >Enregistrer</button>
 						      </div>

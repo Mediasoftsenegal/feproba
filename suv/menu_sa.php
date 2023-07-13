@@ -14,222 +14,166 @@ $sec=$_GET['sec'];
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fédération des Producteurs du Bassin de l'Anambé">
-    <meta name="Feproba" content="Dashboard">
+    <meta name="Feproba" content="Tableau de bord">
      <meta name="Feproba" content="Producteur de riz, Horticulture, Anambé, Bassin, Agriculture, Riz, Union, Fédération des Producteurs du Bassin de l'Anambé, FEPROBA">
 
     <title>FEPROBA - Fédération des Producteurs du Bassin de l'Anambé</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <!--external css-->
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
-    <link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css" />
-    <link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">    
-    
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style-responsive.css" rel="stylesheet">
-
-    <script src="assets/js/chart-master/Chart.js"></script>
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <!-- DataTables -->
-  <link rel="stylesheet" href="datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="datatables-responsive/css/responsive.bootstrap4.min.css">
-  <link rel="stylesheet" href="datatables-buttons/css/buttons.bootstrap4.min.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../plugins/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../assets/css/OverlayScrollbars.min.css">
+  <!-- Theme style --> 
+  <link rel="stylesheet" href="../assets/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   </head>
+  <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-warning navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="menu_sa.php?page=tab_carte3"><button type="button" class="btn btn-success"><i class="fa fa-book"></i> Cartograhie des parcelles </button></a>
+		<a href="menu_sa.php?page=tab_ins_cul"><button type="button" class="btn btn-secondary"><i class="fa fa-tasks"></i> Installation des cultures</button></a>
+		<a href="menu_sa.php?page=tab_ent_cul"><button type="button" class="btn btn-primary"><i class="fa fa-th"></i> Entretien  des cultures</button></a>
+		<a href="menu_sa.php?page=tab_op_recol"><button type="button" class="btn btn-info"><i class="fa fa-lemon"></i> Opérations  post récoltes</button></a>
+        <a href="../tabbord/tabbord.php"><button type="button" class="btn btn-danger"><i class="fa fa-bar-chart-o"></i> Tableau  de bord</button></a>
+		<a href="../param/param.php"><button type="button" class="btn btn-info" ><i class="fa fa-cogs"></i> Paramètres <br> </button></a>
+      </li>
+    </ul>
 
-  <body>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto"> <?php Echo "Utilisateur :".$_SESSION['nom'];?> 
+    </ul>
+	<div class="top-menu">
+   <a class="logout" href="../login.php"><button type="button" class="btn btn-block btn-default">Déconnexion</button></a>
+    </div>
+  </nav>
+  <!-- /.navbar -->
 
-  <section id="container" >
-      <!-- **********************************************************************************************************************************************************
-      TOP BAR CONTENT & NOTIFICATIONS
-      *********************************************************************************************************************************************************** -->
-      <!--header start-->
-      <header class="header black-bg">
-              <div class="sidebar-toggle-box">
-                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-              </div>
-            <!--logo start-->
-            <a href="" class="logo"><b>FEPROBA</b></a>
-            <!--logo end-->
-			
-            <div class="nav notify-row" id="top_menu">
-                <!--  notification start -->
-                <ul class="nav top-menu">
-                    <!-- settings start -->
-                    
-                    <!-- settings end -->
-					
-                    <!-- inbox dropdown start-->
-						<a href="menu_sa.php?page=tab_carte3"><button type="button" class="btn btn-theme01"><i class="fa fa-female"></i> Cartograhie des parcelles </button></a>
-						<a href="menu_sa.php?page=tab_ins_cul"><button type="button" class="btn btn-theme02"><i class="fa fa-book"></i> Installation des cultures</button></a>
-						<a href="menu_sa.php?page=tab_ent_cul"><button type="button" class="btn btn-theme03"><i class="fa fa-tasks"></i> Entretien  des cultures</button></a>
-						<a href="menu_sa.php?page=tab_op_recol"><button type="button" class="btn btn-theme06"><i class="fa fa-bar-chart-o"></i> Opérations  post récoltes</button></a>
-						<a href="tabbord.php"><button type="button" class="btn btn-theme04"><i class="fa fa-bar-chart-o"></i> Tableau  de bord</button></a>
-						
-						<a href="param.php"><button type="button" class="btn btn-theme05" ><i class="fa fa-cogs"></i> Paramètres <br> </button></a>
-                    <!-- inbox dropdown end -->
-                </ul>
-                <!--  notification end -->
-            </div>
-            <div class="top-menu">
-            	<ul class="nav pull-right top-menu">
-                    <li><a class="logout" href="login.php">Deconnexion</a></li>
-            	</ul>
-            </div>
-        </header>
-      <!--header end-->
-      
-      <!-- **********************************************************************************************************************************************************
-      MAIN SIDEBAR MENU
-      *********************************************************************************************************************************************************** -->
-      <!--sidebar start-->
-      <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu" id="nav-accordion">
-              
-              	  <p class="centered"><a href=""><img src="img/logo.jpg" class="img-circle" width="60"></a></p>
-              	  <h5 class="centered"><?php Echo 'FEPROBA '.$_SESSION['nom'];?></h5>
-				   <li class="mt">
-                      <a  href="tabbord.php">
-                          <i class="fa fa-dashboard"></i>
-                          <span>Tableau de bord</span>
-                      </a>
-                  </li>
-                  <li class='sub-menu'>
-					<a class='active' href='javascript:;' >
-					<i class='fa fa-cogs'></i>
-					<span>Suivi Agronomique</span>
-					</a>
-						<ul class='sub'>
-							<li><a href='menu_sa.php?page=tab_carte3'><i class='fa fa-book'></i>Cartographie des parcelles</a></li>
-							<li><a href='menu_sa.php?page=tab_ins_cul'><i class='fa fa-tasks'></i>Installations des cultures</a></li>
-							<li><a href='menu_sa.php?page=tab_ent_cul'><i class='fa fa-th'></i>Entretien des cultures</a></li>
-							<li><a href='menu_sa.php?page=tab_op_recol'><i class='fa fa-bar-chart-o'></i>Opérations post récolte</a></li>
-							<li><a href='menu_sa.php?page=tab_recap'><i class='fa fa-adjust'></i>Tableau synthèse</a></li>
-						</ul>
-					</li>
-              </ul>
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
-      <!--sidebar end-->
-      
-      <!-- **********************************************************************************************************************************************************
-      MAIN CONTENT
-      *********************************************************************************************************************************************************** -->
-      <!--main content start-->
-      <p><?php include ("$page.php"); ?></p>
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-success elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="../img/logo.jpg" alt="#" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">FEPROBA</span>
+    </a>
 
-      <!--main content end-->
-      <!--footer start-->
-      <footer class="site-footer">
-          <div class="text-center">
-              2019 - @Mediasoft
-              <a href="#" class="go-top">
-                  <i class="fa fa-angle-up"></i>
-              </a>
-          </div>
-      </footer>
-      <!--footer end-->
-  </section>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex"> 
+           
+        <div class="info">
+          <a href="#" class="d-block"> <i class="nav-icon fas fa-tachometer-alt"></i> Suivi agronomique </a>
+        </div>
+      </div>
 
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/jquery-1.8.3.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
-    <script src="assets/js/jquery.scrollTo.min.js"></script>
-    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.sparkline.js"></script>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+         
+          <li class="nav-item">
+            <a href="menu_sa.php?page=tab_carte3" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p >Cartographie des parcelles </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="menu_sa.php?page=tab_ins_cul" class="nav-link">
+              <i class="nav-icon fas fa-tasks"></i>
+              <p >Installation des cultures</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="menu_sa.php?page=tab_ent_cul" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p > Entretien des cultures </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="menu_sa.php?page=tab_op_recol" class="nav-link">
+              <i class="nav-icon fas fa-lemon"></i>
+              <p > Opérations post récoltes </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="menu_sa.php?page=tab_recap" class="nav-link">
+              <i class="nav-icon fas fa-adjust"></i>
+              <p > Tableau synthèse </p>
+            </a>
+          </li> 
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <?php include ("$page.php"); ?>
+
+  <!-- /.content-wrapper -->
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2019 <a href="#">Médiasoft</a>.</strong>
+ 
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 2.0.
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
 
 
-    <!--common script for all pages-->
-    <script src="assets/js/common-scripts.js"></script>
-    
-    <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
-    <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
+<!-- PAGE PLUGINS -->
 
-    <!--script for this page-->
-    <script src="assets/js/sparkline-chart.js"></script>    
-	<script src="assets/js/zabuto_calendar.js"></script>	
-
-    <script src="datatables/jquery.dataTables.min.js"></script>
-	
-	<script type="application/javascript">
-        $(document).ready(function () {
-            $("#date-popover").popover({html: true, trigger: "manual"});
-            $("#date-popover").hide();
-            $("#date-popover").click(function (e) {
-                $(this).hide();
-            });
-        
-            $("#my-calendar").zabuto_calendar({
-                action: function () {
-                    return myDateFunction(this.id, false);
-                },
-                action_nav: function () {
-                    return myNavFunction(this.id);
-                },
-                ajax: {
-                    url: "show_data.php?action=1",
-                    modal: true
-                },
-                legend: [
-                    {type: "text", label: "Special event", badge: "00"},
-                    {type: "block", label: "Regular event", }
-                ]
-            });
-        });
-        
-        
-        function myNavFunction(id) {
-            $("#date-popover").hide();
-            var nav = $("#" + id).data("navigation");
-            var to = $("#" + id).data("to");
-            console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
-        }
-
-        $(function () {
-            $('#table').DataTable();
-        });
-    </script>
-  
-  <!-- DataTables  & -->
-<script src="datatables/jquery.dataTables.min.js"></script>
-<script src="datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<script src="datatables-responsive/js/dataTables.responsive.min.js"></script>
-<script src="datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-<script src="datatables-buttons/js/dataTables.buttons.min.js"></script>
-<script src="datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-<script src="datatables-buttons/js/buttons.html5.min.js"></script>
-<script src="datatables-buttons/js/buttons.print.min.js"></script>
-<script src="datatables-buttons/js/buttons.colVis.min.js"></script>
+<!-- jQuery -->
+<script src="../assets/js/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables  & Plugins -->
+<script src="../assets/js/jquery.dataTables.min.js"></script>
+<script src="../assets/js/dataTables.bootstrap4.min.js"></script>
+<script src="../assets/js/dataTables.responsive.min.js"></script>
+<script src="../assets/js/responsive.bootstrap4.min.js"></script>
+<script src="../assets/js/dataTables.buttons.min.js"></script>
+<script src="../assets/js/buttons.bootstrap4.min.js"></script>
+<script src="../assets/js/jszip.min.js"></script>
+<script src="../assets/js/pdfmake/pdfmake.min.js"></script>
+<script src="../assets/js/vfs_fonts.js"></script>
+<script src="../assets/js/buttons.html5.min.js"></script>
+<script src="../assets/js/buttons.print.min.js"></script>
+<script src="../assets/js/buttons.colVis.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../assets/js/adminlte.min.js"></script>
 <!-- Page specific script -->
 <script>
   $(function () {
     $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-    });
+      "responsive": true, "lengthChange": true, "autoWidth": true,
+    })
   });
 </script>
-
-  </body>
+<!-- PAGE SCRIPTS -->
+<script src="../assets/js/dashboard2.js"></script>
+</body>
 </html>

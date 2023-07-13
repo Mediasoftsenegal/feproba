@@ -61,82 +61,72 @@ $(document).ready(function () {
 														<div class="modal-dialog modal-lg">
 															<div class="modal-content">
 																<div class="modal-header">
+																<h4 class="modal-title" id="myModalLabel">Formulaire exploitant </h4>
 																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-																		<h4 class="modal-title" id="myModalLabel">Formulaire exploitant </h4>
+																		
 																</div>
 															<div class="modal-body">
 																<div class="col-sm-5">								
 																	<div class="form-group">
-																		<label class="col-sm-2 col-sm-2 control-label">Prénom et nom </label>
-																		<div class="col-sm-10">
+																		<label class="">Prénom et nom </label>
 																			<input type="text" name="prenom_nom" class="form-control" placeholder="Prénom et Nom">
-																		</div>
 																	</div>
 																</div>
 																<div class="col-sm-5">
 																	<div class="form-group">	
-																		<label class="col-sm-2 col-sm-2 control-label">Date de naissance</label>
-																			<div class="col-sm-10">
-																				<input type="date" name="date_naissance" class="form-control" placeholder="Date de naissance">
-																			</div>
-																	  </div>	
+																		<label class="col-sm-12 col-sm-2 control-label">Date de naissance</label>
+																			<input type="date" name="date_naissance" class="form-control" placeholder="Date de naissance">
+																	  </div>
 																</div>	
 																<div class="col-sm-5">
 																	<div class="form-group">
 																		<label class="col-sm-2 col-sm-2 control-label">Genre </label>
-																			<div class="col-sm-10">
-																				<select name="genre"class="form-control" placeholder="choisir le genre">
-																					<option value="Choisir le genre">Choisir le genre</option>
-																					<option value="Homme">Homme</option>
-																					<option value="Femme">Femme</option>
-																				</select>
-																			</div>
+																			<select name="genre"class="form-control" placeholder="choisir le genre">
+																				<option value="Choisir le genre">Choisir le genre</option>
+																				<option value="Homme">Homme</option>
+																				<option value="Femme">Femme</option>
+																			</select>
 																	</div>	
 																</div>
 																<div class="col-sm-5">
 																	<div class="form-group">
 																		<label class="col-sm-2 col-sm-2 control-label">Région</label>
-																			<div class="col-sm-10">
-																				<select class="form-control" name="region"> 
-																					<option>Choisir une région</option>
-																					<?php
-																						$reso=liste_reg();
-																						while ($rowg=mysqli_fetch_array($reso))
-																						{
+																			<select class="form-control" name="region"> 
+																				<option>Choisir une région</option>
+																				<?php
+																					$reso=liste_reg();
+																					while ($rowg=mysqli_fetch_array($reso))
+																					{
 																					?>	
 																					<option><?php echo $rowg['Region']; ?></option>
 																					<?php 
 																						}
 																					mysqli_free_result($reso);
 																					?>
-																				</select>								
-																			</div>
+																			</select>	
 																	</div>	
 																</div>
 																<div class="col-sm-5">												
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">Département </label>
-																			<div class="col-sm-10">
-																				<select class="form-control" name="departement"> 
-																					<option>Choisir un département</option>
-																					<?php
-																						$resd=liste_dep();
-																						while ($rowd=mysqli_fetch_array($resd))
-																						{
-																						?>	
-																						<option><?php echo $rowd['DEPARTEMENT']; ?></option>
-																						<?php 
-																						}
-																						mysqli_free_result($resd);
-																					?>
-																				</select>								
-																			</div>
+																			<select class="form-control" name="departement"> 
+																				<option>Choisir un département</option>
+																				<?php
+																					$resd=liste_dep();
+																					while ($rowd=mysqli_fetch_array($resd))
+																					{
+																					?>	
+																					<option><?php echo $rowd['DEPARTEMENT']; ?></option>
+																					<?php 
+																					}
+																					mysqli_free_result($resd);
+																				?>
+																			</select>	
 																	</div>	
 																</div>		
 																<div class="col-sm-5">	
 																	<div class="form-group">
 																		<label class="col-sm-2 col-sm-2 control-label">Commune</label>
-																			<div class="col-sm-10">
 																				<select class="form-control" name="commune"> 
 																					<option>Choisir une commune</option>
 																						<?php
@@ -149,85 +139,66 @@ $(document).ready(function () {
 																							}
 																							mysqli_free_result($resc);
 																						?>
-																				</select>								
-																			</div>
+																				</select>		
 																	</div>
 																</div>
 																<div class="col-sm-5">	
 																	<div class="form-group">
 																		<label class="col-sm-2 col-sm-2 control-label">Village</label>
-																		  <div class="col-sm-10">
-																			  <input type="text"  name="village" class="form-control" placeholder="Village">
-																		  </div>
+																		<input type="text"  name="village" class="form-control" placeholder="Village">
 																	</div>
 																</div>	
 																<div class="col-sm-5">	
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">N°Téléphone </label>
-																		<div class="col-sm-10">
-																			<input type="text"  name="numtel" class="form-control" placeholder="N° Téléphone">
-																		</div>
+																		<input type="text"  name="numtel" class="form-control" placeholder="N° Téléphone">
 																	</div>
 																</div>
 																<div class="col-sm-5">	
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">N°Identification nationale </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="numcin" class="form-control" placeholder="N° Identification nationale">
-																			</div>
+																		<input type="text"  name="numcin" class="form-control" placeholder="N° Identification nationale">
 																	</div>											
 																</div>
 																<div class="col-sm-5">	
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">Statut producteur </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="statut_producteur" class="form-control" placeholder="Statut producteur">
-																			</div>
+																		<input type="text"  name="statut_producteur" class="form-control" placeholder="Statut producteur"
 																	</div>
 																</div>	
 																<div class="col-sm-5">		
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">Organisation de Base  </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="organi_base" class="form-control" placeholder="Organisation de Base">
-																			</div>
+																		<input type="text"  name="organi_base" class="form-control" placeholder="Organisation de Base">
 																	</div>
 																</div>
 																<div class="col-sm-5">											
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">Statut organisation  </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="statut_organi" class="form-control" placeholder="Statut organisation">
-																			</div>
+																		<input type="text"  name="statut_organi" class="form-control" placeholder="Statut organisation">
 																	</div>
 																</div>
 																<div class="col-sm-5">		
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">Année implication  </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="annee_implic" class="form-control" placeholder="Année implication">
-																			</div>
+																		<input type="text"  name="annee_implic" class="form-control" placeholder="Année implication">
 																	</div>
 																</div>
 																<div class="col-sm-5">			
 																	<div class="form-group">
 																		<label class="col-sm-3 col-sm-3 control-label">Droit d'adhésion </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="droit_adhesion" class="form-control" placeholder="Droit d'adhésion">
-																			</div>
+																		<input type="text"  name="droit_adhesion" class="form-control" placeholder="Droit d'adhésion">
 																	</div>
 																</div>
 																<div class="col-sm-5">	
 																	<div class="form-group">
-																		<label class="col-sm-3 col-sm-3 control-label">Source de financement  </label>
-																			<div class="col-sm-10">
-																				<input type="text"  name="source_financement" class="form-control" placeholder="Source de financement">
-																			</div>
+																		<label class="col-sm-3 col-sm-6 control-label">Source de financement  </label>
+																		<input type="text"  name="source_financement" class="form-control" placeholder="Source de financement">
 																	</div>
 																</div>
 																<div class="col-sm-5">	
 																	<div class="form-group">
-																		<label class="col-sm-3 col-sm-3 control-label">Chef de ménage  </label>
+																		<label class="col-sm-3 col-sm-6 control-label">Chef de ménage  </label>
 																			<div class="col-sm-10">
 																				<input type="text"  name="chef_menage" class="form-control" placeholder="Chef de ménage">
 																			</div>
@@ -235,7 +206,7 @@ $(document).ready(function () {
 																</div>	
 																<div class="col-sm-5">	
 																	<div class="form-group">
-																		<label class="col-sm-3 col-sm-3 control-label">Membre ménage  </label>
+																		<label class="col-sm-3 col-sm-6 control-label">Membre ménage  </label>
 																			<div class="col-sm-10">
 																				<input type="text"  name="membre_menage" class="form-control" placeholder="Membre ménage">
 																			</div>
@@ -243,7 +214,7 @@ $(document).ready(function () {
 																</div>
 																<div class="col-sm-5">	
 																	<div class="form-group">
-																		<label class="col-sm-3 col-sm-3 control-label">Menage d'appui </label>
+																		<label class="col-sm-3 col-sm-6 control-label">Menage d'appui </label>
 																			<div class="col-sm-10">
 																				<input type="text"  name="menage_appui" class="form-control" placeholder="Menage d'appui">
 																			</div>
@@ -251,7 +222,7 @@ $(document).ready(function () {
 																</div>	
 																<div class="col-sm-5">	
 																	<div class="form-group">
-																		<label class="col-sm-3 col-sm-3 control-label">Animateur </label>
+																		<label class="col-sm-3 col-sm-6 control-label">Animateur </label>
 																			<div class="col-sm-10">
 																				<input type="text"  name="animateur" class="form-control" placeholder="Animateur">
 																			</div>
@@ -259,7 +230,7 @@ $(document).ready(function () {
 																</div>		
 																<div class="col-sm-5">	
 																	<div class="form-group">
-																		<label class="col-sm-3 col-sm-3 control-label">	Observations </label>
+																		<label class="col-sm-3 col-sm-6 control-label">	Observations </label>
 																			<div class="col-sm-10">
 																				<input type="hidden"  name="id_repertoire" id="id_repertoire" />
 																				<input type="text"  name="observations" class="form-control" placeholder="	Observations">

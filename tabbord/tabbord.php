@@ -66,7 +66,7 @@ $_SESSION['nbre']=$val;
 					
                     <!-- inbox dropdown start-->
 						<a href="../param/param.php?page=asm"><button type="button" class="btn btn-theme05" ><i class="fa fa-cogs"></i> Paramètres</button></a>
-						<a href="menu_sa.php?page=assa"><button type="button" class="btn btn-theme05" ><i class="fa fa-cogs"></i> Suivi agronomique </button></a>
+						<a href="../suv/menu_sa.php?page=assa"><button type="button" class="btn btn-theme05" ><i class="fa fa-cogs"></i> Suivi agronomique </button></a>
 						<a href="menu_en.php?page=asentre"><button type="button" class="btn btn-theme02"><i class="fa fa-book"></i> Stock</button></a>
 						<a href="menu_ve.php?page=asvente"><button type="button" class="btn btn-theme03"><i class="fa fa-tasks"></i> Etat de ventes</button></a>
 						<a href="tabbord.php"><button type="button" class="btn btn-theme04"><i class="fa fa-bar-chart-o"></i> Tableau de bord</button></a>
@@ -110,7 +110,7 @@ $_SESSION['nbre']=$val;
 
                   
 				  <li class="sub-menu">
-                      <a href="menu_sa.php?page=assa" >
+                      <a href="../suv/menu_sa.php?page=assa" >
                           <i class="fa fa-book"></i>
                           <span>suivi agronomique</span>
                       </a>

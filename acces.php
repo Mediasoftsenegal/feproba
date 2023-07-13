@@ -9,7 +9,7 @@ if (isset($_POST['btconnexion']))
     	$resultat=mysqli_num_rows(login_password($login,$pwd));
 		if($resultat!=0)
 			{
-			session_start();
+			
 			$row=mysqli_fetch_row(login_password($login,$pwd));             
 			$_SESSION['login']=$row[2];
 			$_SESSION['nom']=$row[1];                         
@@ -21,36 +21,47 @@ if (isset($_POST['btconnexion']))
 				Switch($profiler)
 					{
 					Case "Administrateur" :
-						echo 'Connexion en cours ....';				
-						header ("Refresh: 1;URL=tabbord.php");
+						
+						echo '<META HTTP-EQUIV="Refresh" Content="0; URL=tabbord.php">';
+					//	header ("Refresh:1;url=tabbord.php");
+					//	echo 'Connexion en cours ....';	
 						break;
 						
 					Case "Relais" :
-						echo 'Connexion en cours ....';
-						header ("Refresh: 1;URL=menu_mob.php");	
+
+						echo '<META HTTP-EQUIV="Refresh" Content="0; URL=menu_mob.php">';
+						// header ("Refresh:1;url=menu_mob.php");	
+						// echo 'Connexion en cours ....';
 						break;
 				
 					Case "Partenaire" :
-						echo 'Connexion en cours ....'; 
-						header ("Refresh: 1;URL=sodagri/menu_so.php?page=soda");
+						
+						echo '<META HTTP-EQUIV="Refresh" Content="0; URL=sodagri/menu_so.php?page=soda">';
+						// header ("Refresh:1;url=sodagri/menu_so.php?page=soda");
+						// echo 'Connexion en cours ....'; 
 						break;
 					
 					Case "Animateur" :
-						echo 'Connexion en cours ....'; 
-						header ("Refresh: 1;URL=menu_mob.php");
+						echo '<META HTTP-EQUIV="Refresh" Content="0; URL=menu_mob.php">';
+						// header ("Refresh:1;url=menu_mob.php");
+						// echo 'Connexion en cours ....'; 
 						break;
 				
 					default: 
-						echo 'redirection 4'; 
+						
 						echo "<h1>Votre login ou mot de passe n'est pas valide !</h1>"; 
-						header ("Refresh: 3;URL=login.php");
+						echo 'redirection 4'; 
+						// header ("Refresh: 3;url=login.php");
+						echo '<META HTTP-EQUIV="Refresh" Content="0; URL=login.php">';
 					
 					}
 				}
 				else
 				{
-				echo "Utilisateur non défini dans la plateforme !"; 
-				header ("Refresh: 1;URL=login.php");
+
+				echo "Utilisateur non défini sur la plateforme !"; 
+				// header ("Refresh: 1;url=login.php");
+				echo '<META HTTP-EQUIV="Refresh" Content="0; URL=login.php">';
 				}
 	}
 

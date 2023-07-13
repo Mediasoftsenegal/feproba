@@ -14,7 +14,7 @@ $sec=$_GET['sec'];
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fédération des Producteurs du Bassin de l'Anambé">
-    <meta name="Feproba" content="Tableau de bord">
+    <meta name="Feproba" content="Dashboard">
     <meta name="keyword" content="Producteur de riz, Horticulture, Anambé, Bassin, Agriculture, Riz, Union, Fédération des Producteurs du Bassin de l'Anambé, FEPROBA">
 
     <title>FEPROBA - Fédération des Producteurs du Bassin de l'Anambé</title>
@@ -22,7 +22,7 @@ $sec=$_GET['sec'];
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="../assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../assets/css/zabuto_calendar.css">
     <link rel="stylesheet" type="text/css" href="../assets/js/gritter/css/jquery.gritter.css" />
     <link rel="stylesheet" type="text/css" href="../assets/lineicons/style.css">    
@@ -63,11 +63,11 @@ $sec=$_GET['sec'];
                     <!-- settings end -->
 					
                     <!-- inbox dropdown start-->
-						<a href="../param/param.php?page=asm"><button type="button" class="btn btn-theme07" ><i class="fa fa-cogs"></i> Paramètres</button></a>
-						<a href="../suv/param.php?page=assa"><button type="button" class="btn btn-theme05" ><i class="fa fa-cogs"></i> Suivi agronomique </button></a>
-						<a href="../param/param.php?page=asentre"><button type="button" class="btn btn-theme02"><i class="fa fa-book"></i> Stock</button></a>
-						<a href="../param/param.php?page=asvente"><button type="button" class="btn btn-theme03"><i class="fa fa-tasks"></i> Etat de ventes</button></a>
-						<a href="../tabbord/tabbord.php"><button type="button" class="btn btn-theme04"><i class="fa fa-bar-chart-o"></i> Tableau de bord</button></a>
+						<a href="param.php?page=asm"><button type="button" class="btn btn-theme07" ><i class="fa fa-cogs"></i> Paramètres</button></a>
+						<a href="param.php?page=assa"><button type="button" class="btn btn-theme05" ><i class="fa fa-cogs"></i> Suivi agronomique </button></a>
+						<a href="param.php?page=asentre"><button type="button" class="btn btn-theme02"><i class="fa fa-book"></i> Stock</button></a>
+						<a href="param.php?page=asvente"><button type="button" class="btn btn-theme03"><i class="fa fa-tasks"></i> Etat de ventes</button></a>
+						<a href="tabbord.php"><button type="button" class="btn btn-theme04"><i class="fa fa-bar-chart-o"></i> Tableau de bord</button></a>
 					
                     <!-- inbox dropdown end -->
                 </ul>
@@ -94,7 +94,7 @@ $sec=$_GET['sec'];
               	  <h5 class="centered"><?php Echo 'FEPROBA '.$_SESSION['nom'];?></h5>
               	  	
                   <li class="mt">
-                      <a  href="tabbord.php">
+                      <a  href="../tabbord/tabbord.php">
                           <i class="fa fa-dashboard"></i>
                           <span>Tableau de bord</span>
                       </a>
@@ -103,25 +103,25 @@ $sec=$_GET['sec'];
 					
 						Case 'asm':
 							echo "<li class='sub-menu'>
-									<a class='active' href='../param/menu_pr.php?page=table_union' >
+									<a class='active' href='javascript:;' >
 									<i class='fa fa-cogs'></i>
 									<span>Paramètres</span>
 									</a>
 									<ul class='sub'>
-										<li><a href='../param/menu_pr.php?page=table_union'><i class='fa fa-book'></i> Unions</a></li>
-										<li><a href='../param/menu_pr.php?page=table_rep'><i class='fa fa-tasks'></i>Exploitants</a></li>
-										<li><a href='../param/menu_pr.php?page=tab_parcelles'><i class='fa fa-th'></i>Parcelles</a></li>
-										<li><a href='../param/menu_pr.php?page=table_variete'><i class='fa fa-bar-chart-o'></i>Nature parcelle</a></li>
-										<li><a href='../param/menu_pr.php?page=table_specul'><i class='fa fa-adjust'></i>Type de variété</a></li>
-										<li><a href='../param/menu_pr.php?page=tab_saison'><i class='fa fa-asterisk'></i>Saison</a></li>
-										<li><a href='../param/menu_pr.php?page=tab_campagne'><i class='fa fa-anchor'></i>Campagne</a></li>
-										<li><a href='../param/menu_pr.php?page=table_user'><i class='fa fa-users'></i>Utilisateurs</a></li>
+										<li><a href='menu_pr.php?page=table_union'><i class='fa fa-book'></i> Unions</a></li>
+										<li><a href='menu_pr.php?page=table_rep'><i class='fa fa-tasks'></i>Exploitants</a></li>
+										<li><a href='menu_pr.php?page=tab_parcelles'><i class='fa fa-th'></i>Parcelles</a></li>
+										<li><a href='menu_pr.php?page=table_variete'><i class='fa fa-bar-chart-o'></i>Nature parcelle</a></li>
+										<li><a href='menu_pr.php?page=table_specul'><i class='fa fa-adjust'></i>Type de variété</a></li>
+										<li><a href='menu_pr.php?page=tab_saison'><i class='fa fa-asterisk'></i>Saison</a></li>
+										<li><a href='menu_pr.php?page=tab_campagne'><i class='fa fa-anchor'></i>Campagne</a></li>
+										<li><a href='menu_pr.php?page=table_user'><i class='fa fa-users'></i>Utilisateurs</a></li>
 									</ul>
 								</li>";
 								break;
 						Case 'assa':
 							echo "<li class='sub-menu'>
-									<a class='active' href='javascript:;' >
+									<a class='active' href='menu_sa.php?page=tab_carte3' >
 									<i class='fa fa-cogs'></i>
 									<span>Suivi Agronomique</span>
 									</a>
@@ -129,7 +129,7 @@ $sec=$_GET['sec'];
 										<li><a href='menu_sa.php?page=tab_carte3'><i class='fa fa-book'></i>Cartographie des parcelles</a></li>
 										<li><a href='menu_sa.php?page=tab_ins_cul'><i class='fa fa-tasks'></i>Installations des cultures</a></li>
 										<li><a href='menu_sa.php?page=tab_en_cul'><i class='fa fa-th'></i>Entretien des cultures</a></li>
-										<li><a href='menu_sa.php?page=tab_op_recol'><i class='fa fa-bar-chart-o'></i>Opérations post récolte</a></li>
+										<li><a href='menu_sa.php?page=tab_op_recol'><i class='fa fa-bar-chart'></i>Opérations post récolte</a></li>
 										<li><a href='menu_sa.php?page=tab_recap'><i class='fa fa-adjust'></i>Tableau synthèse</a></li>
 									</ul>
 								</li>";
@@ -210,8 +210,8 @@ $sec=$_GET['sec'];
     <script src="../assets/js/jquery.sparkline.js"></script>
     <!--common script for all pages-->
     <script src="../assets/js/common-scripts.js"></script>
-    <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
-    <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
+    <script type="text/javascript" src="../assets/js/gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="../assets/js/gritter-conf.js"></script>
     <!--script for this page-->
     <script src="../assets/js/sparkline-chart.js"></script>    
 	<script src="../assets/js/zabuto_calendar.js"></script>	
